@@ -1,4 +1,20 @@
-what is machine learning?
+___________________________________________
+___________________________________________
+___________________________________________
+	___________________________________________
+		______________________________________________________________________________________
+
+
+										LEARN MACHINE LEARNING, MOTHERFUCKER	
+
+		______________________________________________________________________________________
+	___________________________________________
+___________________________________________
+___________________________________________
+___________________________________________
+
+
+WHAT IS MACHINE LEARNING
 
 	construct / use algorithms that learn from data
 		more information > higher performance
@@ -54,3 +70,103 @@ ____________
 ____________
 
 
+Classification, Regression, Clustering
+
+	Classification
+		
+		goal - predict category of new observation
+
+		earlier observations > ESTIMATE > classifier
+
+		unseen data > classifier > class
+
+		--
+		
+		applications:
+
+			medical diagnosis
+			animal recognition
+
+		--
+
+		important:
+
+			qualitative output
+			predefined classes
+
+				for example: 
+					sick, not sick
+					dog, cat, horse
+
+	Regression
+
+		predictors > REGRESSION FUNCTION > response
+
+		in this case, we are not trying to retrieve a class, but instead, a numberical value
+
+			for example: relationship between height and weight? linear?
+
+
+		fitting a linear function
+
+		(height) ~ b[0] + b[1]*(weight)
+
+		our coefficients are b[0] and b[1]
+
+		--
+
+		what can regression be used for?
+
+		--
+
+		payments > credit scores
+
+			or creditScore = f(payments)
+
+		time > subscriptions
+
+			or subscriptions = f(time)
+
+		grades > landingJob
+
+			landingJob = f(grades)
+
+		--
+
+		we get:
+
+			qualitative output
+
+		we need:
+
+			input-output observations
+
+		--
+
+	Clustering
+
+		clustering: grouping objects in clusters
+
+			similar within cluster
+
+			dissimilar between clusters
+
+		example: grouping similar animal photos
+
+			no labels
+
+			no right or wrong
+
+			plenty of possible clusterings
+
+		--
+
+		method - kMeans
+		
+			cluster data in k clusters
+
+			more on this in the 5, and final, chapter of this course
+
+		--
+
+	
