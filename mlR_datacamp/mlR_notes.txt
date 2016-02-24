@@ -1,0 +1,56 @@
+what is machine learning?
+
+	construct / use algorithms that learn from data
+		more information > higher performance
+		previous solutions > experience
+
+		EXAMPLE
+			predict the color of a square based on its edge and size
+			this is a classification problem
+
+					size		edge		color
+			-------------------------------------
+			1		small		dotted		green
+			2		big			striped		yellow
+			3		medium		normal		green
+
+			in this case:
+				features : size, edge
+				label : color
+				observations : rows 1,2,3
+
+		in R, this would look like this:
+
+			squares <- data.frame(
+				size = c("small", "big", "medium")
+				edge = c("dotted", "striped", "normal")
+				color = c("small", "yellow", "green")
+			)
+
+			dim(squares)		#observations, #features
+
+			str(squares)		structured overview
+
+			summary(squares)	distribution measures
+
+
+			input > FUNCTION > output
+
+			in this case
+
+				color ~ f(size, edge)
+
+
+	machine learning IS NOT determining the most occurring color, or the average size - this is statistics
+
+	MACHINE LEARNING GOAL = BUILDING MODELS FOR PREDICTION
+
+we use regression for this shit!!
+
+there are many applications that we 'know' today
+
+____________
+____________
+____________
+
+
